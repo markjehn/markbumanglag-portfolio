@@ -1,0 +1,215 @@
+body{
+    font-family: "Copperplate", sans-serif;
+}
+
+h1{
+    font-family:"Copperplate", sans-serif;
+}
+
+h3 {
+    font-weight:700;
+    font-size: 35px
+}
+
+h1 {
+    font-size: 100px;
+    text-align:center;
+}
+
+h2 {
+    font-size: 55px ;
+    padding: 10px;
+    border-width: 50px solid;
+}
+
+h2{
+    color:#000000
+}
+header{
+    padding:30px;
+    background-image:linear-gradient(to top,#dd5e5e, #bc5454, #f23b3b);
+    color: white;
+}
+
+.navbar {
+    padding: 20px; /* Increase padding top and bottom */
+    font-size: 20px; /* Increase font size */
+    min-height: 80px; /* Increase navbar height */
+  }
+
+.navbar-nav {
+    list-style:none;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar-nav li {
+    margin: 0 35px; /* Space between items */
+   
+  }
+
+.navbar-nav ul {
+    align-items:center;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+header h2{
+    color: white;
+}
+
+footer{
+    background-image:linear-gradient(to bottom, #c84040, #bc5454, #f23b3b);
+    padding:20px 0;
+    color: white;
+}
+
+.row-content{
+    padding: 50px 0;
+    border-bottom:1px ridge;
+    min-height:200px;
+}
+
+.navbar{
+    background-color:#aba058
+}
+
+.tab-content {
+    border: 1px solid #0f0f0f;
+    border-top: none;
+    padding: 10px;
+}
+
+.accordion-button {
+    background-color: #070606;
+  }
+
+  
+
+.carousel-caption {
+    background-color: rgba(5, 4, 4, 0.7);
+    color:#fffdfd;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 80%;
+    max-width: 90%;
+    border-radius:10px;
+    padding:10px;
+}
+.carousel {
+    width: 1500px;
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    margin:auto;
+  
+    border: solid 5px #000000;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.carousel img {
+    display:block;
+    width:100%;
+}
+
+
+
+/*.carousel-item {
+    width: 1400px;
+    height: 800px;
+    display:flex;
+}*/
+
+.icons {
+    color: white;
+}
+
+.carousel-control-next-icon {
+    background-color:#1d1d1d;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev-icon {
+    background-color:#1d1d1d;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+#homeCarousel {
+    align-items:center;
+}
+
+p {
+    font-size:25px;
+    padding:10px
+}
+
+li {
+    font-size: 20px;
+}
+
+form {
+    max-width: 1000px;
+    margin: auto;
+    background: #f45c5c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea {
+    height: 250px;
+}
+input[type=submit] {
+    background-color: #c42121;
+    color: white;
+    padding: 20px 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    font-size:25px;
+    
+}
+input[type=submit]:hover {
+    background-color: #a12a2a;
+}
+
+.nucamplogo {
+    max-height: 150px;
+    max-width:150px;
+}
+
+.uhlogo {
+    max-width:100px;
+    max-height:100px;
+}
+
+
+
+body{
+    background-image:linear-gradient(to bottom, #e86969, #bc5454, #f23b3b);
+}
+
+
+label {
+    font-size: 25px;
+}
